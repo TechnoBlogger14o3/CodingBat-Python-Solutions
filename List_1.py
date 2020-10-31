@@ -10,10 +10,7 @@
 # first_last6([13, 6, 1, 2, 3]) → False
 
 def first_last6(nums):
-    if nums[0] == 6 or nums[-1] == 6:
-        return True
-    else:
-        return False
+    return nums[0] == 6 or nums[-1] == 6
 
 
 # ----------------------------------------------------------------------------------------------------------------------
@@ -27,10 +24,7 @@ def first_last6(nums):
 # same_first_last([1, 2, 1]) → True
 
 def same_first_last(nums):
-    if len(nums) >= 1 and nums[0] == nums[-1]:
-        return True
-    else:
-        return False
+    return len(nums) >= 1 and nums[0] == nums[-1]
 
 
 # ----------------------------------------------------------------------------------------------------------------------
